@@ -1,0 +1,58 @@
+#para {
+  color: rgb(255, 119, 0);
+}
+
+#box {
+  width: 300px;
+  border: 5px solid orchid;
+  border-radius: 10px;
+  padding: 0px 2px 5px 10px;
+  margin: 20px;
+  font-style: italic;
+  font-size: medium;
+}
+.world p {
+  color: cornflowerblue;
+}
+.seudo a:link {
+  color: yellow;
+}
+.seudo a:visited {
+  color: brown;
+}
+.seudo a:hover {
+  color: rgb(76, 226, 43);
+}
+.seudo:hover {
+  background-color: rgb(222, 32, 184);
+  p {
+    color: blueviolet;
+  }
+  h1 {
+    color: blue;
+  }
+}
+.about {
+  position: relative;
+  text-align: center;
+  font-size: 75px;
+}
+.about::before {
+  content: "";
+  width: 100px;
+  height: 5px;
+  background-color: rgb(203, 19, 19);
+  top: 50px;
+  left:550px;
+
+  position: absolute;
+}
+.about::after {
+  content: "";
+  width: 100px;
+  height: 5px;
+  background-color: purple;
+  top: 50px;
+  
+  position: absolute;
+}
